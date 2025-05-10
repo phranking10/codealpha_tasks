@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+       .slide {
+            display: none;
+            padding: 2rem;
+            min-height: 400px;
+        }
+       .slide.active {
+            display: block;
+        }
+       .progress-bar {
+            height: 10px;
+            background-color: #000000d2;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+       .progress-fill {
+            height: 100%;
+            background-color: #000000;
+            transition: width 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-4xl mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-center mb-6">Phishing Awareness Training</h1>
+        <div class="progress-bar mb-4">
+            <div class="progress-fill" style="width: 0%"></div>
+        </div>
+        <div id="slides">
+            <div class="slide active">
+                <h2 class="text-2xl font-semibold mb-4">What Exactly Is Phishing?</h2>
+                <p class="text-lg">Ever get an email that just feels... off? Phishing is a sneaky cyberattack where bad guys pretend to be someone you trust – like your bank or a colleague – to trick you into giving away your private info. Think usernames, passwords, credit card details, that kind of thing.</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>They often use emails, but can also try text messages or even fake websites.</li>
+                    <li>Their goal? Usually to steal your data, sneak malware onto your device, or just get unauthorized access to accounts.</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Different Flavors of Phishing Attacks</h2>
+                <p class="text-lg">Phishing isn't just one thing – there are a few common types to watch out for:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li><strong>Email Phishing:</strong> The classic! Bogus emails designed to look like they're from real companies or people you know.</li>
+                    <li><strong>Spear Phishing:</strong> More targeted attacks aimed at specific people or within an organization. They often use personalized information to seem more legitimate.</li>
+                    <li><strong>Smishing:</strong> Phishing attempts that come through SMS or text messages. Watch out for those!</li>
+                    <li><strong>Vishing:</strong> This is phishing done over voice calls. Someone might call pretending to be tech support or a bank representative.</li>
+                    <li><strong>Clone Phishing:</strong> Where they take a real, previously sent email and replace the links or attachments with malicious ones. Tricky!</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Spotting a Phishy Email: Red Flags to Watch For</h2>
+                <p class="text-lg">Keep your eyes peeled for these telltale signs in your inbox:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Did you get asked for sensitive info out of the blue? That's a big red flag.</li>
+                    <li>Generic greetings like "Dear Customer" instead of your actual name.</li>
+                    <li>Typos and bad grammar are common giveaways.</li>
+                    <li>Take a close look at the sender's email address – does it seem a little off? Like "supp0rt@paypa1.com"?</li>
+                    <li>They might try to scare you with urgent or threatening language, like "Your account will be suspended immediately!".</li>
+                    <li>Be wary of links or attachments you weren't expecting. Think before you click!</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Fake Websites: How to Tell If a Site's a Phish</h2>
+                <p class="text-lg">Phishing sites often try to mimic the real deal. Here's what to look for:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>URLs with slight misspellings are a classic trick. For example, "www.g00gle.com" instead of "www.google.com".</li>
+                    <li>Is the "https://" missing, or is there no padlock icon in the address bar? That's not a good sign.</li>
+                    <li>Poor design, blurry logos, or just an overall low-quality feel can indicate a fake site.</li>
+                    <li>Did they suddenly ask for your login details or other personal information? Be extra cautious.</li>
+                </ul>
+                <p class="mt-4">Always double-check the website address before you type in anything sensitive.</p>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">How They Get You: Social Engineering Tricks</h2>
+                <p class="text-lg">Phishers are masters of manipulation. They often play on your trust or emotions using tactics like:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li><strong>Pretexting:</strong> Inventing a believable story to get you to hand over information.</li>
+                    <li><strong>Baiting:</strong> Offering something tempting, like free stuff or software, that actually contains malware.</li>
+                    <li><strong>Tailgating:</strong> Physically following someone into a secure area without proper authorization.</li>
+                    <li><strong>Impersonation:</strong> Pretending to be someone important, like a boss, IT support, or a vendor you work with.</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Your Shield Against Phishing: Staying Safe Online</h2>
+                <p class="text-lg">Here are some key steps you can take to protect yourself:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Always take a moment to verify the sender's email address before you reply or click anything.</li>
+                    <li>Hover your mouse over links before clicking to see where they actually lead. If it looks suspicious, don't click!</li>
+                    <li>Think twice before opening attachments, especially if you weren't expecting them.</li>
+                    <li>Enable two-factor authentication (2FA) whenever you can for an extra layer of security.</li>
+                    <li>Keep your software and antivirus programs up to date – they often include protection against the latest threats.</li>
+                    <li>If you ever suspect a phishing attempt, report it to your IT department right away.</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Time to Test Your Phishing Radar!</h2>
+                <p class="text-lg">Take a look at this email subject and decide: is it safe or a phish?</p>
+                <p class="mt-4 italic">"Subject: Urgent - Verify Your Account Now! Dear User, Your account will be locked unless you click here to verify your details."</p>
+                <div class="mt-4">
+                    <button class="bg-red-500 text-white px-4 py-2 rounded mr-2" onclick="alert('You got it! This email uses that classic urgent language and a generic greeting – textbook phishing signs.')">Phishing</button>
+                    <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="alert('Not quite! This one has some major red flags, like the urgent tone and impersonal greeting.')">Legitimate</button>
+                </div>
+            </div>
+            <div class="slide">
+                <h2 class="text-2xl font-semibold mb-4">Wrapping Up: Staying Vigilant</h2>
+                <p class="text-lg">Phishing is a real danger, but you can significantly reduce your risk by:</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Becoming good at recognizing those suspicious emails, dodgy websites, and common tactics.</li>
+                    <li>Always taking a second to verify who's asking for your information before you share anything.</li>
+                    <li>Being proactive and reporting anything that seems like a potential phishing attempt.</li>
+                </ul>
+                <p class="mt-4">Stay alert, keep learning, and let's all be a bit safer online!</p>
+            </div>
+        </div>
+        <div class="flex justify-between mt-6">
+            <button id="prevBtn" class="bg-gray-500 text-white px-4 py-2 rounded" disabled>Previous</button>
+            <button id="nextBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const progressFill = document.querySelector('.progress-fill');
+        let currentSlide = 0;
+
+        function updateSlide() {
+            slides.forEach((slide, index) => {
+                slide.classList.toggle('active', index === currentSlide);
+            });
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.textContent = currentSlide === slides.length - 1? 'Finish' : 'Next';
+            const progress = ((currentSlide + 1) / slides.length) * 100;
+            progressFill.style.width = `${progress}%`;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSlide();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                updateSlide();
+            } else {
+                alert('Training complete! Keep your guard up against those sneaky phishing attempts.');
+            }
+        });
+
+        updateSlide();
+    </script>
+</body>
+</html>
